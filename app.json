@@ -1,5 +1,6 @@
 {
   "expo": {
+    "userInterfaceStyle": "automatic",
     "scheme": "acme",
     "web": {
       "bundler": "metro"
@@ -8,6 +9,12 @@
       "expo-router"
     ],
     "name": "travelagency",
-    "slug": "travelagency"
+    "slug": "travelagency",
+    "android": {
+      "package": "com.anonymous.travelagency"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.travelagency"
+    }
   }
 }
